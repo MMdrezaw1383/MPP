@@ -96,6 +96,7 @@ while runninng:
                 coin_x = random.randint(0,screen_width - coin_radius)
                 coin_y = -coin_radius
                 coin_speed += coin_speed_increase
+                score += 10
     if dark_mode:
         screen.fill(black)    
     else:
