@@ -114,8 +114,8 @@ while runninng:
         screen.blit(score_text,(screen_width//2 - score_text.get_width()//2,\
                                     screen_height//2 - score_text.get_height()//2 + 100))
     else:
-        pygame.draw.rect(screen,silver,player_x,player_y,player_width,player_height)
-        pygame.draw.rect(screen,red,obstacle_x,obstacle_y,obstacle_width,obstacle_height)
+        pygame.draw.rect(screen,silver,(player_x,player_y,player_width,player_height))
+        pygame.draw.rect(screen,red,(obstacle_x,obstacle_y,obstacle_width,obstacle_height))
         pygame.draw.circle(screen,yellow,(coin_x,coin_y),coin_radius)
         score_text = normal_font.render(f"Your Score{score}",True,light_gray)
         screen.blit(score_text,(10,10))
