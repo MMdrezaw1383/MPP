@@ -58,6 +58,7 @@ while runninng:
             runninng == False
         if event.type == pygame.KEYDOWN and game_over:
             if event.key == pygame.K_RETURN:
+                game_over = False
                 player_x = screen_width // 2 - player_width // 2
                 player_y = screen_height - player_height - 10
                 obstacle_x = random.randint(0,screen_width- obstacle_width)
@@ -76,8 +77,8 @@ while runninng:
         if keys[pygame.K_RIGHT] and player_x< screen_width - player_width:
             player_x += player_speed
         
-        obstacle_height += obstacle_speed
-        if obstacle_height > screen_height:
+        obstacle_y += obstacle_speed
+        if obstacle_y > screen_height:
             obstacle_x = random.randint(0,screen_width- obstacle_width)
             obstacle_y = -obstacle_height
             obstacle_speed += obstacle_speed_increase
@@ -91,12 +92,12 @@ while runninng:
         if player_x < obstacle_x + obstacle_width and player_x + player_width> obstacle_x \
             and player_y < obstacle_y + obstacle_height and player_y + player_height> obstacle_height:
                 game_over = True
-        if player_x < coin_x +coin_radius and player_x + player_width> coin_x \
-            and player_y < coin_y + coin_radius and player_y + player_height > coin_radius:
+        if player_x < coin_x +coin_radius and player_x + player_width> coin_x - coin_radius \
+            and player_y < coin_y + coin_radius and player_y + player_height > coin_y - coin_radius:
+                score += 10
                 coin_x = random.randint(0,screen_width - coin_radius)
                 coin_y = -coin_radius
                 coin_speed += coin_speed_increase
-                score += 10
     if dark_mode:
         screen.fill(black)    
     else:
