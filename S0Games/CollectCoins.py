@@ -36,14 +36,14 @@ obstacle_height = 20
 obstacle_x = random.randint(0,screen_width- obstacle_width)
 obstacle_y = -obstacle_height
 obstacle_speed = 3
-obstacle_speed_increase = 0.2
+obstacle_speed_increase = 0.4
 
 # Coin Coordinates
 coin_radius = random.randint(10,15)
 coin_x = random.randint(0,screen_width - coin_radius)
 coin_y = -coin_radius
 coin_speed = 4
-coin_speed_increase = 0.2
+coin_speed_increase = 0.4
 
 # Frame
 clock = pygame.time.Clock()
