@@ -13,3 +13,4 @@ pakages :
 - subprocess
 - jinja2
 - jdatetime
+- pdfkit
