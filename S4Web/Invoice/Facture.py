@@ -1,6 +1,10 @@
 from jinja2 import Environment,FileSystemLoader
 import jdatetime
 import pdfkit
+
+order_number = input("enter number")
+
+context = {}
 env = Environment(loader=FileSystemLoader("templates"))
 template = env.get_template("template.html")
 output = template.render()
