@@ -11,11 +11,14 @@ package & libraries :
 - cv2
     <p></p>
 - pyautogui
-  <p>PyAutoGUI is a cross-platform GUI automation Python module for human beings. Used to programmatically control the mouse & keyboard.</p>
+  <p>is a cross-platform GUI automation Python module for human beings. Used to programmatically control the mouse & keyboard.</p>
 - base64
+    
 - sqlite3
 - shutil
 - easygui
+  <p>is a module for very simple, very easy GUI programming in Python. EasyGUI is different from other GUI generators in that EasyGUI is NOT event-driven.
+</p>
 - subprocess
 - jinja2
 - jdatetime
