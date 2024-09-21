@@ -21,7 +21,7 @@ package & modules :
   <p>is a module for very simple, very easy GUI programming in Python. EasyGUI is different from other GUI generators in that EasyGUI is NOT event-driven.</p>
 
 - subprocess
-
+  <p>The subprocess module allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes.</p>
 - jinja2
   <p>Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.</p>
 - jdatetime
