@@ -25,4 +25,5 @@ package & modules :
 - jinja2
   <p>Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.</p>
 - jdatetime
+  <p>jdatetime is Jalali implementation of Python’s datetime module This module exactly follows Python Standard datetime module’s methods</p>
 - pdfkit
