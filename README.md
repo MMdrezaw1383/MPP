@@ -18,10 +18,11 @@ package & modules :
 - shutil
   <p>The shutil module offers a number of high-level operations on files and collections of files. In particular, functions are provided which support file copying and removal. For operations on individual files, see also the os module.</p>
 - easygui
-  <p>is a module for very simple, very easy GUI programming in Python. EasyGUI is different from other GUI generators in that EasyGUI is NOT event-driven.
-</p>
+  <p>is a module for very simple, very easy GUI programming in Python. EasyGUI is different from other GUI generators in that EasyGUI is NOT event-driven.</p>
+
 - subprocess
 
 - jinja2
+  <p>Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.</p>
 - jdatetime
 - pdfkit
