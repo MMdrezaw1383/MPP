@@ -13,7 +13,7 @@ package & modules :
 - pyautogui
   <p>is a cross-platform GUI automation Python module for human beings. Used to programmatically control the mouse & keyboard.</p>
 - base64
-    
+   <p>This module provides functions for encoding binary data to printable ASCII characters and decoding such encodings back to binary data.</p> 
 - sqlite3
   <p>SQLite is a C library that provides a lightweight disk-based database that doesn’t require a separate server process and allows accessing the database using a nonstandard variant of the SQL query language.</p>
   
