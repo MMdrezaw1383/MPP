@@ -15,6 +15,7 @@ package & modules :
 - base64
     
 - sqlite3
+  <p>SQLite is a C library that provides a lightweight disk-based database that doesn’t require a separate server process and allows accessing the database using a nonstandard variant of the SQL query language.</p>
   
 - shutil
   <p>The shutil module offers a number of high-level operations on files and collections of files. In particular, functions are provided which support file copying and removal. For operations on individual files, see also the os module.</p>
