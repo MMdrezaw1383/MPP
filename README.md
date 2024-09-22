@@ -15,6 +15,7 @@ package & modules :
 - base64
     
 - sqlite3
+  
 - shutil
   <p>The shutil module offers a number of high-level operations on files and collections of files. In particular, functions are provided which support file copying and removal. For operations on individual files, see also the os module.</p>
 - easygui
