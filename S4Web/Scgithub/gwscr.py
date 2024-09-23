@@ -12,14 +12,14 @@ def get_trending_repos(lang,num_repos):
 
         if response.status_code == 200:
             data = response.json()
-            page_repo = data['payload']['results'][:num_repos]
+            page_repo = data['payload']['results']
             repos.extend(page_repo)
             # pprint(page_repo)
             page += 1
         else:
             print('Error!')
             return []
-    return repos
+    return repos[:num_repos]
     
 lang = input("enter language: ")
 num_repos= int(input("number of repos: "))
