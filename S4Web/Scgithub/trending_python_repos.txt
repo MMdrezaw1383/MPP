@@ -1,0 +1,11 @@
+Top 3 python repositories on GitHub:
+**************************************************
+#1- system-design-primer - Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+URL:https://github.com/donnemartin/system-design-primer
+--------------------------------------------------
+#2- awesome-python - An opinionated list of awesome <em>Python</em> frameworks, libraries, software and resources.
+URL:https://github.com/vinta/awesome-python
+--------------------------------------------------
+#3- project-based-learning - Curated list of project-based tutorials
+URL:https://github.com/practical-tutorials/project-based-learning
+--------------------------------------------------
