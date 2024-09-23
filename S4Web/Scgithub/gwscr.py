@@ -19,7 +19,7 @@ def get_trending_repos(lang,num_repos):
         else:
             print('Error!')
             return []
-        return repos
+    return repos
     
 lang = input("enter language: ")
 num_repos= int(input("number of repos: "))
