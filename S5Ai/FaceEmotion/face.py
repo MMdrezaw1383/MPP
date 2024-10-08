@@ -2,9 +2,10 @@ import cv2
 from mtcnn import MTCNN
 import numpy as np
 from keras.models import load_model
+# from keras._tf_keras.keras.models import load_model
 from random import choice
 
-image_path = r"image4.jpg"
+image_path = r"img.jpg"
 image = cv2.imread(image_path)
 
 detector = MTCNN()
@@ -20,9 +21,9 @@ for face in faces:
     face_image = image[y:y+height , x:x+width]
     face_image = cv2.resize(face_image,(48,48))
     face_image = cv2.cvtColor(face_image,cv2.COLOR_BGR2GRAY)
-    # face_image = np.expand_dims(face_image,axis=0)
-    # face_image = np.expand_dims(face_image,axis=-1)
-    face_image = np.reshape(face_image, [1, face_image.shape[0], face_image.shape[1], 1])
+    face_image = np.expand_dims(face_image,axis=0)
+    face_image = np.expand_dims(face_image,axis=-1)
+    # face_image = np.reshape(face_image, [1, face_image.shape[0], face_image.shape[1], 1])
     predicted_class = np.argmax(emotion_model.predict(face_image))
     label_map = dict((v,k) for k,v in emotion_labels.items())
     predicted_label = label_map[predicted_class]
@@ -30,6 +31,7 @@ for face in faces:
     cv2.rectangle(image,(x,y),(x+width ,y+height),color,2)
     cv2.putText(image,predicted_label,(x,y-10),cv2.FONT_HERSHEY_SIMPLEX,0.9,color,2)
 
-cv2.imwrite("finalImage.jpg",image)
+cv2.imwrite("finalimage.jpg",image)
 cv2.imshow("Detected Faces and Emotions",image)
+cv2.waitKey(0)
 cv2.destroyAllWindows()
