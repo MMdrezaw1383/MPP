@@ -30,3 +30,28 @@ package & modules :
   <p>jdatetime is Jalali implementation of Python’s datetime module This module exactly follows Python Standard datetime module’s methods</p>
 - pdfkit
   <p>is a PDF document generation library for Node and the browser that makes creating complex, multi-page, printable documents easy.</p>
+- flask
+- secrets
+- werkzeug
+- 
+- pytesseract
+- googletrans
+- PIL
+- mtcnn
+- keras
+- sklearn
+- matplotlib
+- 
+- speech_recognition
+- pyttsx3
+- wikipedia
+- webbrowser
+- subprocess
+- wolframalpha
+- 
+- sqlite3
+- getpass
+- secrets
+- cryptography
+- 
+- 
