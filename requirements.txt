@@ -1,0 +1,2 @@
+pygame>=2.0.0
+djitellopy>=2.4.0
