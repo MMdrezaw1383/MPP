@@ -21,8 +21,7 @@ Tello Drone Controller
 - ←/→: چرخش چپ/راست
 - ESC: توقف اضطراری
 
-توسعه دهنده: کاربر Python
-تاریخ: 2024
+تاریخ:2025
 """
 
 import pygame
