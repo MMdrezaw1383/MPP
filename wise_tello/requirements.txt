@@ -1,0 +1,16 @@
+# Wise Tello - Autonomous Line Following Drone
+# Requirements file for Python dependencies
+
+# Core drone control
+djitellopy>=2.5.0
+
+# Computer vision
+opencv-python>=4.5.0
+numpy>=1.19.0
+
+# Optional dependencies for enhanced functionality
+pygame>=2.0.0  # For display interface (optional)
+
+# Development dependencies (optional)
+# pytest>=6.0.0  # For testing
+# black>=21.0.0  # For code formatting
